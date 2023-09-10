@@ -36,6 +36,14 @@ spring:
         use-last-modified: false
 
 initializr:
+  description:
+    value: "Sample Spring boot service"
+  name:
+    value: "sample-service"
+  group-id:
+    value: "vinay"
+  artifact-id:
+    value: "sample-service"
   env:
     boms:
       codecentric-spring-boot-admin:
